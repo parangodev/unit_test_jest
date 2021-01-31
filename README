@@ -1,0 +1,32 @@
+This project is a basic practice to learn how to make unit testing with Jest for JavaScript.
+
+Building the environment:
+  -git init
+  -npm init
+  -npm i -D jest babel-jest @babel/core @babel/preset-env
+  -create babel configuration
+
+
+What is Unit Testing?
+  -In simple words, you have two types of test, functional and no functional.
+  The functional are all test about the dynamic and purpose of you application, and the no functional are tests like load time, performance, etc.
+  In functional tests we can find the unit tests, where we can testing pieces of our code.
+
+How can I make a test?
+  -Go to the folder '__test__' and then to 'matchers', then go to 'asynchronous'.
+  In each file you can find the official documentation.
+
+How can I run the test?
+  -Go to your console and then use 'npm' with three options:
+    -npm run test
+    -npm run test:watch
+    -npm run test:coverage
+
+What is watch?
+  -It's a way have a hot reload about our test, you must add the script in package.json or use 'npm run test --watch'
+
+What is coverage?
+  -It's an analysis about our tests, that analysis tell us what it's fine or wrong with our tests.
+  You can make the script at package.json or use 'npm run test --coverage'
+
+Yeah! You know the basic things about testing JavaScript with Jest! Congrats!
