@@ -1,7 +1,7 @@
 {
-  "name": "jest-practice",
+  "name": "jest-practice-leantech",
   "version": "1.0.0",
-  "description": "This is a simple practice of unit testing with Jest.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest",
