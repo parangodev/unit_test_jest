@@ -8,7 +8,7 @@ describe("We will use common matchers here", () => {
   const two = 2
 
   // The function TEST, obviously, is the test. The first param is the name of the test and the second is an anonymous function with the expectation.
-  test("toBe uses Objects.is to test exact equality", () => {
+test("toBe uses Objects.is to test exact equality", () => {
     // The function EXPECT is what we expect of this test, the unique param is what we want to test and the method applied is the comparator with his param (the result).
 
     expect(two).toBe(2)
